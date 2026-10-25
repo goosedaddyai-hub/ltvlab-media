@@ -1,0 +1,32 @@
+# _raw/<폴더>/urls.txt 에 "파일명 URL" 줄을 넣고 푸시하면, 그 폴더에 파일을 내려받아 커밋한다.
+# (작업 서버에서 이미지 CDN에 직접 접근이 안 될 때 쓰는 우회 경로)
+name: fetch-media
+on:
+  push:
+    paths: ['_raw/**/urls.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: download
+        run: |
+          set -e
+          for f in $(git ls-files '_raw/**/urls.txt'); do
+            d=$(dirname "$f")
+            while read -r name url; do
+              [ -z "$name" ] && continue
+              [ -f "$d/$name" ] && continue
+              curl -fsSL --retry 3 -o "$d/$name" "$url"
+              echo "got $d/$name"
+            done < "$f"
+          done
+      - name: commit
+        run: |
+          git config user.name "fetch-media"
+          git config user.email "fetch-media@users.noreply.github.com"
+          git add _raw
+          git diff --cached --quiet || (git commit -m "fetch-media: 생성 미디어 저장" && git push)
