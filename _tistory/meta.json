@@ -14,7 +14,7 @@
    "대출 한도",
    "LTV연구소"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/kakao/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/kakao/00.jpg"
  },
  "evict": {
   "slug": "evict",
@@ -31,7 +31,7 @@
    "LTV",
    "LTV연구소"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/evict/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/evict/00.jpg"
  },
  "policy": {
   "slug": "policy",
@@ -48,7 +48,7 @@
    "내집마련",
    "LTV"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/policy/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/policy/00.jpg"
  },
  "penalty": {
   "slug": "penalty",
@@ -64,7 +64,7 @@
    "청년전세보증",
    "내집마련"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/penalty/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/penalty/00.jpg"
  },
  "cy": {
   "slug": "cy",
@@ -81,7 +81,7 @@
    "잔금대출",
    "분양가"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/cy/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/cy/00.jpg"
  },
  "finlife": {
   "slug": "finlife",
@@ -97,7 +97,7 @@
    "LTV",
    "LTV연구소"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/finlife/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/finlife/00.jpg"
  },
  "swap": {
   "slug": "swap",
@@ -114,7 +114,7 @@
    "1주택자",
    "LTV연구소"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/swap/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/swap/00.jpg"
  },
  "refi": {
   "slug": "refi",
@@ -131,7 +131,7 @@
    "DSR",
    "LTV연구소"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/refi/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/refi/00.jpg"
  },
  "cheongyak": {
   "slug": "cheongyak",
@@ -148,7 +148,7 @@
    "인천 청약",
    "취득세"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/cheongyak/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/cheongyak/00.jpg"
  },
  "sales2": {
   "slug": "sales2",
@@ -166,6 +166,6 @@
    "대환대출",
    "LTV연구소"
   ],
-  "thumb": "https://ltvlab.vercel.app/b/sales2/00.jpg"
+  "thumb": "https://ltvlab.vercel.app/b/tistory/sales2/00.jpg"
  }
 }
