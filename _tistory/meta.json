@@ -184,5 +184,22 @@
    "LTV연구소"
   ],
   "thumb": "https://ltvlab.vercel.app/b/tistory/bankstop/00.jpg"
+ },
+ "seizure": {
+  "slug": "seizure",
+  "title": "카드 연체 가압류에서 경매 개시까지 6주, 실제 등기로 본 경매 취하 타이밍",
+  "category": "대출 규제·정책 풀이",
+  "tags": [
+   "경매취하",
+   "가압류",
+   "임의경매",
+   "카드연체",
+   "연체자대출",
+   "지분담보대출",
+   "대환대출",
+   "주택담보대출",
+   "LTV연구소"
+  ],
+  "thumb": "https://ltvlab.vercel.app/b/tistory/seizure/00.jpg"
  }
 }
