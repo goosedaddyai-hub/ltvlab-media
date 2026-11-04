@@ -167,5 +167,22 @@
    "LTV연구소"
   ],
   "thumb": "https://ltvlab.vercel.app/b/tistory/sales2/00.jpg"
+ },
+ "bankstop": {
+  "slug": "bankstop",
+  "title": "주담대 은행 막혔을 때 A안 vs B안 고르는 법, 실제 등기 사례로 정리",
+  "category": "대출 규제·정책 풀이",
+  "tags": [
+   "주담대중단",
+   "은행대출총량",
+   "카카오뱅크주담대",
+   "후순위대출",
+   "대환대출",
+   "상호금융",
+   "저축은행담보대출",
+   "주택담보대출",
+   "LTV연구소"
+  ],
+  "thumb": "https://ltvlab.vercel.app/b/tistory/bankstop/00.jpg"
  }
 }
