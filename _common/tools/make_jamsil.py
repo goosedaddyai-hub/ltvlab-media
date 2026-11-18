@@ -341,6 +341,16 @@ def s7():
 SC.append(s7)
 
 
+# 7-2. LTV연구소 포인트: 청약 당첨 시 매매자금 최대 65%
+def s7b():
+    dur = 4.8
+    T = text_layer([('은행은 막혀도', 0), ('매매자금 [m]최대 65%[/]', 1)],
+                   ['청약 당첨 시 [y]실제 진행[/] 가능', '현금 부족분 [c]미리 상담[/]하세요'],
+                   '소득·신용·심사 조건에 따라 한도는 달라요', chip='LTV연구소에서는', chipcol=GREEN)
+    return dur, photo(J + 'img2.png', dur, 1, dark=0.25), T, stamp_fx(stamp('최대 65%', (34, 170, 105), 100, -8), 0.9), []
+SC.append(s7b)
+
+
 # 8. CTA
 def s8():
     dur = 4.4
