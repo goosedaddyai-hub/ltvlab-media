@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>LTV push</title>
+<body style="font:20px sans-serif;padding:20px">loading…
+<script>
+(async()=>{
+  const q=new URLSearchParams(location.search); const src=q.get('src');
+  try{
+    const b=await (await fetch(src)).blob();
+    document.body.textContent='fetched '+b.size;
+    const send=()=>{ if(window.opener){ window.opener.postMessage({kind:'ltvvid',blob:b,name:q.get('name')||'video.mp4'},'*'); document.body.textContent='sent '+b.size; setTimeout(()=>window.close(),1500);} else document.body.textContent='no opener'; };
+    send();
+  }catch(e){document.body.textContent='err '+e}
+})();
+</script>
